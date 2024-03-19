@@ -21,14 +21,14 @@ function App() {
       <div className="box w-[500px] h-[300px] text-center z-0 rounded-md">
         <div className="subbox h-[50%] flex flex-col gap-3 p-5">
           <p id="advice" className="uppercase text text-xs">
-            Advice " {headers} "
+            Advice # {headers}
           </p>
           <p id="quotes" className="h-[100px] w-[100%]">
             " {para} "
           </p>
         </div>
 
-        <div className="images h-[50%] flex flex-col gap-2 items-center mt-28 z-10">
+        <div className="images h-[50%] flex flex-col gap-8 items-center mt-20 z-10">
           <img src={Divider} alt="divider" />
           <button onClick={SubmitData} className="w-10 h-10" id="button">
             <img className="w-8 clickable" src={Icon} alt="Icon" />
